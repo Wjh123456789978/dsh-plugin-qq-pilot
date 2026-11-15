@@ -224,10 +224,16 @@ dsh-plugin-qq-pilot/
 ├── docs/
 │   ├── ARCHITECTURE.md         # 架构、模块划分、安全边界、架构性弱点
 │   └── DEVELOPMENT.md          # 开发记录：为什么这么做、踩了哪些坑
+├── dist/
+│   ├── README.md               # 成品包说明（哪个包装到哪台机器）
+│   └── dsh-plugin-qq-pilot-v1.1.0-*.zip   # 三平台成品包（与 Releases 附件一致）
+├── PLATFORMS.md                # Windows / Linux / Android 各系统接法
 ├── CHANGELOG.md
 ├── LICENSE
 └── README.md
 ```
+
+> 一次性拿全套：`git clone` 这个仓库就有源码 + 三个包；只想下载包就点 [Releases](https://github.com/Wjh123456789978/dsh-plugin-qq-pilot/releases/latest) 或直接进 `dist/`。
 
 ## 文档
 
