@@ -170,6 +170,17 @@ node tools/export-cookies.mjs http://127.0.0.1:9222 qq-cookies.json
 
 ---
 
+## 平台支持
+
+| 平台 | 状态 |
+|---|---|
+| Windows 10 / 11 | ✅ 支持 |
+| Linux（含 WSL2） | ✅ 支持 |
+| Android 10–15（64 位） | ✅ 支持（Termux 跑 DSH，或 adb forward 接管手机 Chrome） |
+| macOS | ❌ 不适配 |
+
+插件是 Node 代码 + `playwright-core`，无原生依赖，跨平台成本低；差异只在「浏览器怎么开调试端口」和「默认走桌面布局还是手机布局」。各系统的具体命令见 [PLATFORMS.md](PLATFORMS.md)。
+
 ## 移动端（手机版布局）
 
 `mobile: true` 时插件会通过 CDP 覆盖 UA、视口和触摸能力，让网页 QQ 走手机版布局；加好友的点击也会从 `mouse.click` 换成 `touchscreen.tap`。
