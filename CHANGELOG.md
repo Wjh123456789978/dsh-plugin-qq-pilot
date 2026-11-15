@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.1
+
+- 文档同步：README 目录段补上 `dist/` 与 `PLATFORMS.md`，仓库内成品包与源码同源。
+- 成品包改短名，避免手机文件管理器把长文件名截断成看不清的一项：
+  `qq-pilot-1.1.1-win-linux.zip` / `qq-pilot-1.1.1-android.zip` / `qq-pilot-1.1.1-source.zip`。
+- 代码无改动（`src/index.ts`、`src/ops.ts` 与 1.1.0 逐字节一致）。
+
 ## 1.1.0 — 2026-11-15
 
 ### Added
