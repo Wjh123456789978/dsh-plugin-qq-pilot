@@ -1,0 +1,17 @@
+node_modules/
+lib/
+dist/
+*.log
+
+# 账号凭证，绝对不能提交
+qq-cookies.json
+cookies*.json
+*.har
+
+# 截图与临时产物
+*.png
+!docs/images/*.png
+
+# 本地环境
+.env
+.env.local

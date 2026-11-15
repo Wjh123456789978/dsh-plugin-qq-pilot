@@ -1,0 +1,18 @@
+{
+  "name": "dsh-plugin-qq-pilot",
+  "version": "1.0.0",
+  "private": false,
+  "description": "DSH 插件：用模型驱动网页版 QQ 小号——读会话、回复、整理推荐好友（加好友需显式确认 + 限速）",
+  "type": "module",
+  "main": "src/index.ts",
+  "keywords": ["dsh-plugin", "qq", "playwright", "cdp"],
+  "license": "MIT",
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*",
+    "@deepseek-ai/dsh-tools": "*",
+    "@deepseek-ai/schemastery": "*"
+  }
+}

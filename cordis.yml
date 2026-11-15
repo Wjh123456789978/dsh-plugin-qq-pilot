@@ -1,0 +1,20 @@
+# 这是给 `dsh ... --patch` 用的覆盖层。
+# 把 name 改成你这台机器上插件的真实绝对路径。
+- insert:
+    - id: qq-pilot
+      name: '/home/user/Doubao/chats/564745656061954/dsh-plugin-qq-pilot/src/index.ts'
+      config:
+        cdpUrl: 'http://127.0.0.1:9222'
+        qqUrl: 'https://web.qq.com/'
+        activeHours: '12:00-13:00,18:00-19:00'
+        dailyAddCap: 3
+        minActionGapSec: 60
+        dryRun: true
+        cookiesFile: ''
+        selectors:
+          chatList: ''
+          inputBox: ''
+          sendButton: ''
+          recommendList: ''
+          addButton: ''
+          confirmButton: ''
