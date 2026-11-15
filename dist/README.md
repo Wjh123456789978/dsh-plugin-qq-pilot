@@ -1,13 +1,13 @@
 # dist/ — 各平台成品包
 
-这里是 `v1.1.0` 三个平台压缩包的仓库内副本，方便「一个仓库拿到全部东西」。
-GitHub Releases 是发布清单，两者内容一致。
+这里放 `v1.1.1` 三个平台压缩包的仓库内副本，方便「一个仓库拿到全部东西」。
+GitHub Releases 是发布清单，内容与这里一致。
 
 | 文件 | 适用平台 | 默认配置 |
 |---|---|---|
-| `dsh-plugin-qq-pilot-v1.1.0-win-linux.zip` | Windows 10/11、Linux（含 WSL2） | `mobile: false`，桌面布局 |
-| `dsh-plugin-qq-pilot-v1.1.0-android.zip` | Android 10–15（64 位） | `mobile: true`，390×844 |
-| `dsh-plugin-qq-pilot-v1.1.0-source.zip` | 通用 / 想自己改 | 桌面布局 + `examples/mobile-cordis.yml` |
+| `qq-pilot-1.1.1-win-linux.zip` | Windows 10/11、Linux（含 WSL2） | `mobile: false`，桌面布局 |
+| `qq-pilot-1.1.1-android.zip` | Android 10–15（64 位） | `mobile: true`，390×844 |
+| `qq-pilot-1.1.1-source.zip` | 通用 / 想自己改 | 桌面布局 + `examples/mobile-cordis.yml` |
 
 macOS 不在适配范围。
 
